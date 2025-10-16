@@ -28,7 +28,7 @@ class _LoginScreenState extends State<LoginScreen> {
         _isLoading = false;
         if ((email == 'student@example.com' && password == '123456')) {
           Navigator.pushReplacementNamed(context, '/student');
-        } else if ((email == 'teacher@example.com' && password == '654321')) {
+        } else if ((email == 'teacher@example.com' && password == '123123')) {
           Navigator.pushReplacementNamed(context, '/teacher');
         } else {
           _errorText = 'Invalid email or password';
